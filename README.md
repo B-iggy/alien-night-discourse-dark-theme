@@ -13,11 +13,8 @@ It should be a combination of a dark space with the main color green and seconda
 
 As seen in the screenshot follow the 0-5 steps. Then paste following CSS either in the Desktop view or Mobile view
 
-## Desktop
-https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme-desktop.css
-
-## Mobile
-https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme-mobile.css
+## CSS
+https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme.css
 
 ## Additional feature: Theme Switcher
 Initially I build a theme switcher at the top right where people can choose between a Light and this Dark theme.
@@ -28,11 +25,7 @@ This way it is permanent and can react properly.
 https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme--theme-switcher.html
 
 ### CSS
-#### Desktop
-https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme--theme-switcher-desktop.css
-
-#### Mobile
-https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme--theme-switcher-mobile.css
+https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme--theme-switcher.css
 
 ### JS
 https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme--theme-switcher.js
