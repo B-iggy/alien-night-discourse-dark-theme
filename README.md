@@ -19,9 +19,16 @@ https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme-des
 ## Mobile
 https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme-mobile.css
 
-## Additional information
+## Additional feature: Theme Switcher
 Initially I build a theme switcher at the top right where people can choose between a Light and this Dark theme.
 I set a global modifier class in the html and store it in their localStorage. 
 This way it is permanent and can react properly.
 
-If you need more information how I made this I am happy to share it.
+## HTML
+https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme--theme-switcher.html
+
+## CSS
+https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme--theme-switcher.css
+
+## JS
+https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme--theme-switcher.js
