@@ -65,6 +65,7 @@ html.dark .d-editor-button-bar button,
 html.dark .category-list-item h3 a[href],
 html.dark .category-list-item>footer figure,
 html.dark .user-preferences .static,
+html.dark .d-editor-button-bar button,
 html.dark .nav-pills>li>a {
     color: #fff;
 }
