@@ -2,15 +2,18 @@
 Alien Night Theme (Desktop) - A Dark Theme for Discourse
 Author: Ignaz Biegler
 Github: https://github.com/B-iggy/discourse-dark-theme
-Version 1.1.1
+Version 1.1.2
 */
+
 body,
-.user-main .user-content {
+.user-main .user-content,
+body .boxed.white,
+#reply-control .wmd-controls .d-editor-input, #reply-control .wmd-controls .d-editor-preview {
     background-color: #10161d;
 }
 
+
 .top-navbar-links-title,
-.nav-pills>li>a,
 .topic-list a.title,
 .topic-body .regular,
 #topic-title h1 a,
@@ -52,7 +55,8 @@ div.ac-wrap div.item span,
 .popup-menu h3,
 .selected-posts p,
 #share-link h3,
-.panel-body-contents .search-context label {
+.panel-body-contents .search-context label,
+.timeline-container.timeline-fullscreen .topic-timeline .post-excerpt {
     color: #222;
 }
 
