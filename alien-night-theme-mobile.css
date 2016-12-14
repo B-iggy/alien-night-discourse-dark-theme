@@ -8,6 +8,12 @@ body {
     background-color: #10161d;
 }
 
+body .boxed.white,
+#reply-control .wmd-controls .d-editor-input, #reply-control .wmd-controls .d-editor-preview {
+    background-color: #10161d;
+    color: #fff;
+}
+
 .top-navbar-links-title,
 .topic-list a.title,
 .topic-body .regular,
@@ -35,6 +41,19 @@ nav.post-controls button.create,
 .category-list-item h3 a[href],
 .category-list-item>footer figure{
     color: #fff;
+}
+
+nav.post-controls button.create:hover,
+div.ac-wrap div.item span,
+.composer-popup,
+.search-menu .no-results,
+.modal-header h3,
+.modal-body,
+.popup-menu h3,
+.selected-posts p,
+#share-link h3,
+.panel-body-contents .search-context label {
+    color: #222;
 }
 
 .names span a,
@@ -90,26 +109,6 @@ span.highlighted {
 .gap {
     background-color: #4c3434;
 }
-
-nav.post-controls button.create:hover,
-div.ac-wrap div.item span,
-.composer-popup,
-.search-menu .no-results,
-.modal-header h3,
-.modal-body,
-.popup-menu h3,
-.selected-posts p,
-#share-link h3,
-.panel-body-contents .search-context label {
-    color: #222;
-}
-
-body .boxed.white,
-#reply-control .wmd-controls .d-editor-input, #reply-control .wmd-controls .d-editor-preview {
-    background-color: #10161d;
-    color: #fff;
-}
-
 
 #reply-control {
     background-color: #26313e;
