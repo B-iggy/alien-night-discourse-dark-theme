@@ -12,7 +12,6 @@ body .boxed.white,
     background-color: #10161d;
 }
 
-
 .top-navbar-links-title,
 .topic-list a.title,
 .topic-body .regular,
@@ -42,8 +41,13 @@ nav.post-controls button.create,
 .category-list-item h3 a[href],
 .category-list-item>footer figure,
 .user-preferences .static,
-.d-editor-button-bar button {
+.d-editor-button-bar button,
+.nav-pills>li>a {
     color: #fff;
+}
+
+.mobile-view .nav-pills>li>a {
+    color: #222;
 }
 
 nav.post-controls button.create:hover,
