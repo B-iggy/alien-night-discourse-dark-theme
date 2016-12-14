@@ -24,11 +24,11 @@ Initially I build a theme switcher at the top right where people can choose betw
 I set a global modifier class in the html and store it in their localStorage. 
 This way it is permanent and can react properly.
 
-## HTML
+### HTML
 https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme--theme-switcher.html
 
-## CSS
+### CSS
 https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme--theme-switcher.css
 
-## JS
+### JS
 https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme--theme-switcher.js
