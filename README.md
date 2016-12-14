@@ -28,7 +28,11 @@ This way it is permanent and can react properly.
 https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme--theme-switcher.html
 
 ### CSS
-https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme--theme-switcher.css
+#### Desktop
+https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme--theme-switcher-desktop.css
+
+#### Mobile
+https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme--theme-switcher-mobile.css
 
 ### JS
 https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme--theme-switcher.js
