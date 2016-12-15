@@ -2,7 +2,7 @@
 Alien Night Theme (Desktop) - A Dark Theme for Discourse
 Author: Ignaz Biegler
 Github: https://github.com/B-iggy/discourse-dark-theme
-Version 1.1.2
+Version 1.1.3
 */
 .theme-switcher {
     margin-left: 10%;
@@ -30,8 +30,10 @@ Version 1.1.2
 html.dark,
 html.dark body,
 html.dark .user-main .user-content,
-body .boxed.white,
-#reply-control .wmd-controls .d-editor-input, #reply-control .wmd-controls .d-editor-preview {
+html.dark body .boxed.white,
+html.dark #reply-control .wmd-controls .d-editor-input,
+html.dark #reply-control .wmd-controls .d-editor-preview,
+html.dark .admin-detail {
     background-color: #10161d;
 }
 
@@ -66,7 +68,9 @@ html.dark .category-list-item h3 a[href],
 html.dark .category-list-item>footer figure,
 html.dark .user-preferences .static,
 html.dark .d-editor-button-bar button,
-html.dark .nav-pills>li>a {
+html.dark .nav-pills>li>a,
+html.dark #reply-control .contents .d-editor-input, 
+html.dark #reply-control .contents .d-editor-preview {
     color: #fff;
 }
 
@@ -142,12 +146,6 @@ html.dark .gap {
     background-color: #4c3434;
 }
 
-html.dark body .boxed.white,
-html.dark #reply-control .wmd-controls .d-editor-input, #reply-control .wmd-controls .d-editor-preview {
-    background-color: #10161d;
-    color: #fff;
-}
-
 html.dark #reply-control {
     background-color: #26313e;
 }
@@ -158,4 +156,8 @@ html.dark .admin-controls {
 
 html.dark .topic-map {
     background: #152227;
+}
+
+html.dark .user-main .about.collapsed-info .details {
+    background: rgba(245, 248, 249, 0.1);
 }
