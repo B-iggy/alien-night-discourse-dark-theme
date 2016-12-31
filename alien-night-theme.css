@@ -2,29 +2,29 @@
 Alien Night Theme (Desktop) - A Dark Theme for Discourse
 Author: Ignaz Biegler
 Github: https://github.com/B-iggy/discourse-dark-theme
-Version 1.1.3
+Version 1.1.4
 */
 .theme-switcher {
-    margin-left: 10%;
+  margin-left: 10%;
 }
 
 .theme-switcher-attr {
-    color: #fff !important;
-    font-weight: bold;
-    padding: 5px;
-    margin: 2px;
-    display: inline-block;
+  color: #fff !important;
+  font-weight: bold;
+  padding: 5px;
+  margin: 2px;
+  display: inline-block;
 }
 
 .theme-switcher-light {
-    background-color: #fff;
-    color: #222 !important;
-    border: 1px solid #333;
+  background-color: #fff;
+  color: #222 !important;
+  border: 1px solid #333;
 }
 
 .theme-switcher-dark {
-    background-color: #10161d;
-    border: 1px solid #fff;
+  background-color: #10161d;
+  border: 1px solid #fff;
 }
 
 body,
@@ -33,7 +33,7 @@ body .boxed.white,
 #reply-control .wmd-controls .d-editor-input,
 #reply-control .wmd-controls .d-editor-preview,
 .admin-detail {
-    background-color: #10161d;
+  background-color: #10161d;
 }
 
 .top-navbar-links-title,
@@ -65,15 +65,11 @@ nav.post-controls button.create,
 .category-list-item h3 a[href],
 .category-list-item>footer figure,
 .user-preferences .static,
-.d-editor-button-bar button,
 .nav-pills>li>a,
-#reply-control .contents .d-editor-input, 
-#reply-control .contents .d-editor-preview {
-    color: #fff;
-}
-
-html.dark.mobile-view .nav-pills>li>a {
-    color: #222;
+#reply-control .contents .d-editor-input,
+#reply-control .contents .d-editor-preview,
+.user-main .about .details .primary .primary-textual {
+  color: #fff;
 }
 
 nav.post-controls button.create:hover,
@@ -86,8 +82,9 @@ div.ac-wrap div.item span,
 .selected-posts p,
 #share-link h3,
 .panel-body-contents .search-context label,
-.timeline-container.timeline-fullscreen .topic-timeline .post-excerpt {
-    color: #222;
+.timeline-container.timeline-fullscreen .topic-timeline .post-excerpt,
+.modal-inner-container .d-editor-button-bar button {
+  color: #222;
 }
 
 .names span a,
@@ -96,66 +93,76 @@ div.poll .results .bar,
 .dashboard-stats table th,
 .reply-to a,
 div.poll .poll-info {
-    color: #019245;
+  color: #019245;
 }
 
 .timeline-container .topic-timeline .timeline-handle,
 div.poll .results .bar {
-    background-color: #019245;
+  background-color: #019245;
 }
 
-.topic-map .buttons .btn {
-    background: #1f353e;
+.topic-map .buttons .btn,
+.modal .nav {
+  background: #1f353e;
 }
 
 blockquote,
 .moderator .topic-body {
-    background-color: rgba(255, 255, 255, 0.07);
+  background-color: rgba(255, 255, 255, 0.07);
 }
 
 .topic-body .regular {
-    line-height: 1.7;
+  line-height: 1.7;
 }
 
 .discourse-no-touch .topic-body .actions .fade-out {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .like .fa-heart {
-    color: #999;
+  color: #999;
 }
 
 .highlight-action .fa-heart,
 .like-count ~ .like .fa-heart,
 nav.post-controls button.has-like {
-    color: #f11010;
+  color: #f11010;
 }
 
 .nav-pills>li>a:hover,
 span.highlighted {
-    background-color: rgba(255, 102, 0, 0.7);
+  background-color: rgba(255, 102, 0, 0.7);
 }
 
 .gap.jagged-border {
-    background-image: linear-gradient(135deg, #10161d 50%, rgba(255,255,255,0) 50%),linear-gradient(-135deg, #10161d 50%, rgba(255,255,255,0) 50%),linear-gradient(45deg, #10161d 50%, rgba(255,255,255,0) 50%),linear-gradient(-45deg, #10161d 50%, rgba(255,255,255,0) 50%);
+  background-image: linear-gradient(135deg, #10161d 50%, rgba(255,255,255,0) 50%),linear-gradient(-135deg, #10161d 50%, rgba(255,255,255,0) 50%),linear-gradient(45deg, #10161d 50%, rgba(255,255,255,0) 50%),linear-gradient(-45deg, #10161d 50%, rgba(255,255,255,0) 50%);
 }
 
 .gap {
-    background-color: #4c3434;
+  background-color: #4c3434;
 }
 
 #reply-control {
-    background-color: #26313e;
+  background-color: #26313e;
 }
 
 .admin-controls {
-    background-color: #3b3b40;
+  background-color: #3b3b40;
 }
 
 .topic-map {
-    background: #152227;
+  background: #152227;
 }
 
 .user-main .about.collapsed-info .details {
-    background: rgba(245, 248, 249, 0.1);
+  background: rgba(245, 248, 249, 0.1);
+}
+
+.dashboard-stats table th,
+.content-list ul li a:hover {
+  background: rgb(31, 42, 56);
+}
+
+.admin-flags .message {
+  background-color: #381423;
 }
