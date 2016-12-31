@@ -2,7 +2,7 @@
 Alien Night Theme (Desktop) - A Dark Theme for Discourse
 Author: Ignaz Biegler
 Github: https://github.com/B-iggy/discourse-dark-theme
-Version 1.1.3
+Version 1.1.4
 */
 .theme-switcher {
     margin-left: 10%;
@@ -67,15 +67,11 @@ html.dark .d-editor-button-bar button,
 html.dark .category-list-item h3 a[href],
 html.dark .category-list-item>footer figure,
 html.dark .user-preferences .static,
-html.dark .d-editor-button-bar button,
 html.dark .nav-pills>li>a,
 html.dark #reply-control .contents .d-editor-input, 
-html.dark #reply-control .contents .d-editor-preview {
+html.dark #reply-control .contents .d-editor-preview,
+html.dark .user-main .about .details .primary .primary-textual {
     color: #fff;
-}
-
-html.dark.mobile-view .nav-pills>li>a {
-    color: #222;
 }
 
 html.dark nav.post-controls button.create:hover,
@@ -88,7 +84,8 @@ html.dark .popup-menu h3,
 html.dark .selected-posts p,
 html.dark #share-link h3,
 html.dark .panel-body-contents .search-context label,
-html.dark .timeline-container.timeline-fullscreen .topic-timeline .post-excerpt {
+html.dark .timeline-container.timeline-fullscreen .topic-timeline .post-excerpt,
+html.dark .modal-inner-container .d-editor-button-bar button {
     color: #222;
 }
 
@@ -106,7 +103,8 @@ html.dark div.poll .results .bar {
     background-color: #019245;
 }
 
-html.dark .topic-map .buttons .btn {
+html.dark .topic-map .buttons .btn,
+html.dark .modal .nav {
     background: #1f353e;
 }
 
@@ -160,4 +158,13 @@ html.dark .topic-map {
 
 html.dark .user-main .about.collapsed-info .details {
     background: rgba(245, 248, 249, 0.1);
+}
+
+html.dark .dashboard-stats table th,
+html.dark .content-list ul li a:hover {
+    background: rgb(31, 42, 56);
+}
+
+html.dark .admin-flags .message {
+    background-color: #381423;
 }
