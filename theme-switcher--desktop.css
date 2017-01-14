@@ -2,29 +2,43 @@
 Alien Night Theme (Desktop) - A Dark Theme for Discourse
 Author: Ignaz Biegler
 Github: https://github.com/B-iggy/discourse-dark-theme
-Version 1.1.4
+Version 2.0.0
 */
+
+.theme {
+    background: #fff;
+    position: fixed;
+    top: 70px;
+    right: 0;
+    width: 70px;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+    box-shadow: 0px 0px 4px #070708;
+    border-radius: 3px 0px 0px 3px;
+    z-index: 7777;
+}
+
 .theme-switcher {
-    margin-left: 10%;
+    color: #222;
+}
+
+.extra-info-wrapper .topic-statuses i {
+    color: #fff !important;
+}
+
+.ember-view .topic-list-item:hover,
+.has-description:hover,
+.topic-list-latest .ember-view:hover {
+    background-color: rgba(83,169,27,0.17);
 }
 
 .theme-switcher-attr {
-    color: #fff !important;
+    color: #222;
     font-weight: bold;
     padding: 5px;
     margin: 2px;
     display: inline-block;
-}
-
-.theme-switcher-light {
-    background-color: #fff;
-    color: #222 !important;
-    border: 1px solid #333;
-}
-
-.theme-switcher-dark {
-    background-color: #10161d;
-    border: 1px solid #fff;
 }
 
 html.dark,
@@ -70,7 +84,11 @@ html.dark .user-preferences .static,
 html.dark .nav-pills>li>a,
 html.dark #reply-control .contents .d-editor-input, 
 html.dark #reply-control .contents .d-editor-preview,
-html.dark .user-main .about .details .primary .primary-textual {
+html.dark .user-main .about .details .primary .primary-textual,
+html.dark .user-main .about.collapsed-info .details .primary h2,
+html.dark .user-main .about.collapsed-info .details .primary h1,
+html.dark .theme-switcher-attr,
+html.dark .theme-switcher {
     color: #fff;
 }
 
@@ -85,7 +103,13 @@ html.dark .selected-posts p,
 html.dark #share-link h3,
 html.dark .panel-body-contents .search-context label,
 html.dark .timeline-container.timeline-fullscreen .topic-timeline .post-excerpt,
-html.dark .modal-inner-container .d-editor-button-bar button {
+html.dark .modal-inner-container .d-editor-button-bar button,
+html.dark #reply-control .reply-area .ac-wrap,
+html.dark .stats-section .value,
+html.dark .stats-section .value,
+html.dark .user-main .about .details .primary h1,
+html.dark .user-main .about .details h2,
+html.dark .user-main .about .details h3 {
     color: #222;
 }
 
@@ -106,6 +130,10 @@ html.dark div.poll .results .bar {
 html.dark .topic-map .buttons .btn,
 html.dark .modal .nav {
     background: #1f353e;
+}
+
+html.dark .theme {
+    box-shadow: 0px 0px 4px #fff;
 }
 
 html.dark blockquote,
@@ -167,4 +195,8 @@ html.dark .content-list ul li a:hover {
 
 html.dark .admin-flags .message {
     background-color: #381423;
+}
+
+html.dark .theme {
+    background: #222;
 }
