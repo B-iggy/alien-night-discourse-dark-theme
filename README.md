@@ -4,16 +4,16 @@ I wanna share a dark discourse theme I created for my [HWS server empyrion forum
 It should be a combination of a dark space with the main color green and secondary color orange.
 
 ## Preview screenshots
-Main page
+##### Main page
 ![alien-night-theme--main](https://raw.githubusercontent.com/B-iggy/alien-night-discourse-dark-theme/master/preview/alien-night-theme--main.png)
 
-Main page (mobile)
-![alien-night-theme--main](https://raw.githubusercontent.com/B-iggy/alien-night-discourse-dark-theme/master/preview/alien-night-theme--main.png)
+##### Main page (mobile)
+![alien-night-theme--main-mobile](https://raw.githubusercontent.com/B-iggy/alien-night-discourse-dark-theme/master/preview/alien-night-theme--main-mobile.png)
 
-A post page
+##### A post page
 ![alien-night-theme--post](https://raw.githubusercontent.com/B-iggy/alien-night-discourse-dark-theme/master/preview/alien-night-theme--post.png)
 
-A poll page
+##### A poll page
 ![alien-night-theme--poll](https://raw.githubusercontent.com/B-iggy/alien-night-discourse-dark-theme/master/preview/alien-night-theme--poll.png)
 
 ## Installation
