@@ -4,9 +4,9 @@ I wanna share a dark discourse theme I created for my [HWS server empyrion forum
 It should be a combination of a dark space with the main color green and secondary color orange.
 
 ## Preview screenshots
-![alien-night-theme--main](https://raw.githubusercontent.com/B-iggy/discourse-dark-theme/master/alien-night-theme--main.png)
-![alien-night-theme--post](https://raw.githubusercontent.com/B-iggy/discourse-dark-theme/master/alien-night-theme--post.png)
-![alien-night-theme--poll](https://raw.githubusercontent.com/B-iggy/discourse-dark-theme/master/alien-night-theme--poll.png)
+![alien-night-theme--main](https://raw.githubusercontent.com/B-iggy/alien-night-discourse-dark-theme/master/preview/alien-night-theme--main.png)
+![alien-night-theme--post](https://raw.githubusercontent.com/B-iggy/alien-night-discourse-dark-theme/master/preview/alien-night-theme--post.png)
+![alien-night-theme--poll](https://raw.githubusercontent.com/B-iggy/alien-night-discourse-dark-theme/master/preview/alien-night-theme--poll.png)
 
 ## Installation
 https://meta.discourse.org/t/how-do-i-install-a-theme-or-theme-component/63682
@@ -21,6 +21,8 @@ Basically pretty easy and straight forward:
 https://github.com/B-iggy/alien-night-discourse-dark-theme
 6. Colors
 7. New > see screenshot
+![Color Schemes](https://raw.githubusercontent.com/B-iggy/alien-night-discourse-dark-theme/master/preview/alien-night-theme--colors.png)
+
 
 ## Additional feature: Theme Switcher
 Included is a theme switcher at the top right where people can choose between a Light (default) Theme and this Dark theme.
