@@ -16,6 +16,16 @@ ol.category-breadcrumb li {
 	color: #fff;
 }
 
+.badge-notification.new-posts,
+.badge-notification.unread-posts {
+	background-color: #019245;
+}
+
+.badge-notification.new-topic {
+	color: #019245;
+}
+
+
 .theme-switcher {
 	color: #222;
 }
