@@ -19,8 +19,8 @@ Basically pretty easy and straight forward:
 4. Import
 5. From the web > github repro URL:
 https://github.com/B-iggy/alien-night-discourse-dark-theme
-6. Colors
-7. New > see screenshot
+6. Adjust as you wish. A Color Scheme is inclusive
+7. Color Scheme:
 ![Color Schemes](https://raw.githubusercontent.com/B-iggy/alien-night-discourse-dark-theme/master/preview/alien-night-theme--colors.png)
 
 
