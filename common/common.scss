@@ -1,0 +1,31 @@
+#user-card .card-content {
+	padding: 30px 12px 0 12px;
+}
+
+ol.category-breadcrumb {
+	margin: 0 10px 10px 0;
+}
+
+ol.category-breadcrumb li {
+	background-color: #8cb1ac;
+}
+
+.badge-category .clear-badge,
+.extra-info-wrapper .topic-link,
+.list-controls .category-breadcrumb a.badge-category {
+	color: #fff;
+}
+
+.theme-switcher {
+	color: #222;
+}
+
+.extra-info-wrapper .topic-statuses i {
+	color: #fff !important;
+}
+
+.ember-view .topic-list-item:hover,
+.has-description:hover,
+.topic-list-latest .ember-view:hover {
+	background-color: rgba(83,169,27,0.17);
+}

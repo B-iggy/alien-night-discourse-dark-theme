@@ -1,6 +1,6 @@
-# Dark Theme "Alien Night Theme" for Discourse
+# Alien Night | A dark theme for discourse
 
-I wanna share a dark discourse theme I created for my [empyrion forum](https://forum.empyrion-homeworld.net).
+I wanna share a dark discourse theme I created for my [HWS server empyrion forum](https://forum.empyrion-homeworld.net).
 It should be a combination of a dark space with the main color green and secondary color orange.
 
 ## Preview screenshots
@@ -9,29 +9,21 @@ It should be a combination of a dark space with the main color green and seconda
 ![alien-night-theme--poll](https://raw.githubusercontent.com/B-iggy/discourse-dark-theme/master/alien-night-theme--poll.png)
 
 ## Installation
-![alien-night-theme--installation](https://raw.githubusercontent.com/B-iggy/discourse-dark-theme/master/alien-night-theme--installation.png)
+https://meta.discourse.org/t/how-do-i-install-a-theme-or-theme-component/63682
 
-As seen in the screenshot follow the 0-5 steps. Then paste following CSS either in the Desktop view or Mobile view.
+Basically pretty easy and straight forward:
 
-## Theme for Desktop 
-### CSS 
-https://github.com/B-iggy/discourse-dark-theme/blob/master/theme-switcher--desktop.css
-
-### HTML 
-https://github.com/B-iggy/discourse-dark-theme/blob/master/theme-switcher--desktop.html
-
-
-## Theme for Mobile 
-### CSS 
-https://github.com/B-iggy/discourse-dark-theme/blob/master/theme-switcher--mobile.css
-
-### HTML 
-https://github.com/B-iggy/discourse-dark-theme/blob/master/theme-switcher--mobile.html
+1. Go to Admin
+2. Customize
+3. Themes
+4. Import
+5. From the web > github repro URL:
+https://github.com/B-iggy/alien-night-discourse-dark-theme
+6. Colors
+7. New > see screenshot
 
 ## Additional feature: Theme Switcher
-Initially I build a theme switcher at the top right where people can choose between a Light and this Dark theme.
-I set a global modifier class in the html and store it in their localStorage. 
+Included is a theme switcher at the top right where people can choose between a Light (default) Theme and this Dark theme.
+I set a global modifier class in the html and store it in the local Storage. 
 This way it is permanent and can react properly.
 
-### JS
-https://github.com/B-iggy/discourse-dark-theme/blob/master/alien-night-theme--theme-switcher.js

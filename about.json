@@ -1,0 +1,15 @@
+{
+  "name": "Alien Night | A dark discourse Theme",
+  "about_url": "https://github.com/B-iggy/alien-night-discourse-dark-theme",
+  "license_url": "https://github.com/B-iggy/alien-night-discourse-dark-theme/blob/master/LICENSE",
+  "color_schemes": {
+    "Alien Night | A dark discourse Theme": {
+      "primary": "222222",
+      "secondary": "ffffff",
+      "tertiary": "019245",
+      "quaternary": "ff6600",
+      "header_background": "ffffff",
+      "header_primary": "222222"
+    }
+  }
+}

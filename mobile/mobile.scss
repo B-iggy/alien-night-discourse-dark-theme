@@ -1,0 +1,208 @@
+.alien-night-theme {
+	position: fixed;
+	top: 10px;
+	left: 20%;
+	display: flex;
+	z-index: 7777;
+}
+
+.theme-switcher {
+	display: none;
+}
+
+.theme-switcher-attr {
+	color: #fff !important;
+	font-weight: bold;
+	padding: 5px;
+	margin: 2px;
+	display: inline-block;
+}
+
+.theme-switcher-light {
+	background-color: #fff;
+	color: #222 !important;
+	border: 1px solid #333;
+}
+
+.theme-switcher-dark {
+	background-color: #10161d;
+	border: 1px solid #fff;
+}
+
+html.dark,
+html.dark body,
+html.dark .user-main .user-content,
+html.dark body .boxed.white,
+html.dark #reply-control .wmd-controls .d-editor-input,
+html.dark #reply-control .wmd-controls .d-editor-preview,
+html.dark .admin-detail {
+	background-color: #10161d;
+}
+
+html.dark,
+html.dark .top-navbar-links-title,
+html.dark .topic-list a.title,
+html.dark .topic-body .regular,
+html.dark #topic-title h1 a,
+html.dark #topic-title .topic-statuses,
+html.dark .category-list tbody .category h3 a[href],
+html.dark .discourse-no-touch .topic-body .actions .fade-out,
+html.dark #suggested-topics,
+html.dark .topic-list-bottom,
+html.dark .user-main .nav-stacked li>a.active,
+html.dark .theme-switcher,
+html.dark div.poll li[data-poll-option-id],
+html.dark aside.onebox header a[href],
+html.dark .contents,
+html.dark nav.post-controls button.create,
+html.dark .directory .period-chooser,
+html.dark .directory table,
+html.dark .dashboard-stats table .title i.fa,
+html.dark #topic-closing-info,
+html.dark .content-list ul li a,
+html.dark .topic-map .map .number, .topic-map .map i,
+html.dark .topic-map h3,
+html.dark .topic-map .buttons .btn:hover,
+html.dark .user-preferences .static,
+html.dark .d-editor-button-bar button,
+html.dark .category-list-item h3 a[href],
+html.dark .category-list-item>footer figure,
+html.dark .user-preferences .static,
+html.dark #reply-control .contents .d-editor-input,
+html.dark #reply-control .contents .d-editor-preview,
+html.dark .d-editor-preview,
+html.dark .user-main .about .details .primary .primary-textual .username,
+html.dark .user-main .about .details .primary .primary-textual .full-name,
+html.dark .nav-pills>li>a,
+html.dark .stats-section .value,
+html.dark .category-boxes-with-topics h3,
+html.dark section.details h1,
+html.dark .groups-table .groups-info .groups-info-name,
+html.dark .group-info .group-info-name,
+html.dark .group-owner-label,
+html.dark .group-activity-nav li a.active,
+html.dark .group-activity-nav li a,
+html.dark h1 .topic-statuses .topic-status i {
+	color: #fff;
+}
+
+html.dark nav.post-controls button.create:hover,
+html.dark div.ac-wrap div.item span,
+html.dark .composer-popup,
+html.dark .search-menu .no-results,
+html.dark .modal-header h3,
+html.dark .modal-body,
+html.dark .popup-menu h3,
+html.dark .selected-posts p,
+html.dark #share-link h3,
+html.dark .panel-body-contents .search-context label,
+html.dark .timeline-container.timeline-fullscreen .topic-timeline .post-excerpt,
+html.dark .modal-inner-container .d-editor-button-bar button,
+html.dark #reply-control .reply-area .ac-wrap,
+html.dark .timeline-container .topic-timeline .timeline-replies,
+html.dark .user-main .about .details .primary h1,
+html.dark .user-main .about .details h2,
+html.dark .user-main .about .details h3,
+html.dark .groups .ac-wrap .item,
+html.dark .topic-list .topic-list-item-separator td span,
+html.dark .list-controls .nav-pills>li>a,
+html.dark .has-pending-posts,
+html.dark .d-editor .d-editor-modal h3,
+html.dark #simple-container {
+	color: #222;
+}
+
+html.dark .names span a,
+html.dark div.poll .results .bar,
+html.dark .user-info .user-detail .username a,
+html.dark .dashboard-stats table th,
+html.dark .reply-to a,
+html.dark div.poll .poll-info,
+html.dark a.hashtag {
+	color: #019245;
+}
+
+html.dark .timeline-container .topic-timeline .timeline-handle,
+html.dark div.poll .results .bar {
+	background-color: #019245;
+}
+
+html.dark .topic-map .buttons .btn,
+html.dark .modal .nav {
+	background: #1f353e;
+}
+
+html.dark blockquote,
+html.dark .moderator .topic-body,
+html.dark .staff-actions .heading-container, .screened-emails .heading-container, .screened-urls .heading-container, .screened-ip-addresses .heading-container, .permalinks .heading-container, .web-hook-events .heading-container {
+	background-color: rgba(255, 255, 255, 0.07);
+}
+
+.html.dark .admin-contents table tr:hover {
+	background-color: rgba(255, 255, 255, 0.07);
+}
+
+html.dark .topic-body .regular {
+	line-height: 1.7;
+}
+
+html.dark .discourse-no-touch .topic-body .actions .fade-out {
+	font-weight: bold;
+}
+
+html.dark .like .fa-heart {
+	color: #999;
+}
+
+html.dark .highlight-action .fa-heart,
+html.dark .like-count ~ .like .fa-heart,
+html.dark nav.post-controls button.has-like {
+	color: #f11010;
+}
+
+html.dark .nav-pills>li>a:hover,
+html.dark span.highlighted {
+	background-color: rgba(255, 102, 0, 0.7);
+}
+
+html.dark .gap.jagged-border {
+	background-image: linear-gradient(135deg, #10161d 50%, rgba(255,255,255,0) 50%),linear-gradient(-135deg, #10161d 50%, rgba(255,255,255,0) 50%),linear-gradient(45deg, #10161d 50%, rgba(255,255,255,0) 50%),linear-gradient(-45deg, #10161d 50%, rgba(255,255,255,0) 50%);
+}
+
+html.dark .gap {
+	background-color: #4c3434;
+}
+
+html.dark #reply-control {
+	background-color: #26313e;
+}
+
+html.dark .admin-controls {
+	background-color: #3b3b40;
+}
+
+html.dark .topic-map {
+	background: #152227;
+}
+
+html.dark .user-main .about.collapsed-info .details,
+html.dark .cbox10 {
+	background: rgba(245, 248, 249, 0.1);
+}
+
+html.dark .dashboard-stats table th,
+html.dark .content-list ul li a:hover {
+	background: rgb(31, 42, 56);
+}
+
+html.dark .admin-flags .message {
+	background-color: #381423;
+}
+
+html.dark #banner-content li[data-poll-option-id] {
+	color: #222;
+}
+
+html.dark .dashboard-stats.detected-problems {
+	background: #615151;
+}
