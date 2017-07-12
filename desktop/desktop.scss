@@ -76,8 +76,9 @@ html.dark .group-info .group-info-name,
 html.dark .group-owner-label,
 html.dark .group-activity-nav li a.active,
 html.dark .group-activity-nav li a,
-html.dark h1 .topic-statuses .topic-status i {
-	color: #fff;
+html.dark h1 .topic-statuses .topic-status i,
+html.dark .extra-info-wrapper .topic-link {
+	color: #f7f7f7;
 }
 
 html.dark nav.post-controls button.create:hover,
