@@ -1,5 +1,19 @@
+.topic-body.highlighted {
+    animation: background-fade-highlight 1.5s ease-out
+}
+
 #user-card .card-content {
 	padding: 30px 12px 0 12px;
+}
+
+#banner {
+    background: #f7f7f7;
+    box-shadow: 0 1px 2px #111a25;
+    color: #222;
+}
+
+#banner .close {
+    color: #777777;
 }
 
 ol.category-breadcrumb {
@@ -16,9 +30,11 @@ ol.category-breadcrumb li {
 }
 
 .badge-notification.new-posts,
-.badge-notification.unread-posts,
-.d-header .icons .unread-notifications {
+.badge-notification.unread-posts {
 	background-color: #019245;
+}
+.d-header .icons .unread-notifications {
+	background-color: #ff6600;
 }
 
 .badge-notification.new-topic {
