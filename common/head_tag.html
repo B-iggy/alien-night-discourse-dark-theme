@@ -1,27 +1,26 @@
-<script async>
-	$(document).ready(function() {
-
-		var darkTheme = localStorage.getItem("theme");
-
-		if (darkTheme !== null){
-			$('html').addClass('dark');
-		}
-
-		if (typeof(Storage) !== "undefined") {
-			// Code for localStorage/sessionStorage.
-			$('.theme-switcher-dark').on('click', function() {
-				localStorage.setItem("theme", "dark");
-				$('html').addClass('dark');
-			});
-
-			$('.theme-switcher-light').on('click', function() {
-				localStorage.removeItem("theme");
-				$('html').removeClass('dark');
-			});
-
-		} else {
-			// Sorry! No Web Storage support..
-			console.log('Upgrade to a better browser! Really!')
-		}
-	});
+<script type="text/discourse-plugin" version="0.8.24">
+api.decorateWidget('header-buttons:before', helper => {
+    const showExtraInfo = helper.attrs.topic;
+    
+    if(!showExtraInfo) {
+        return helper.h('a.theme-switcherWrapper', [
+            helper.h('a.theme-switcher--light', {
+                text: 'Light',
+                title: 'Change the Theme Color to Light'
+            }),
+            helper.h('input.theme-switcherBox.theme-switcher #theme-switcher', {
+                type:'checkbox'
+            }),
+            helper.h('label.theme-switcherLabel', {
+            'attributes': {
+                'for': 'theme-switcher'
+            }
+            }),
+            helper.h('a.theme-switcher--dark', {
+                text:'Dark',
+                title: 'Change the Theme Color to Dark'
+            })
+        ]);
+    }
+});
 </script>
