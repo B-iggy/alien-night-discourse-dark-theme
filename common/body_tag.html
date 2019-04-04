@@ -103,7 +103,7 @@
 		});
 
 		if (typeof(localStorage) !== "undefined") {
-			if (localStorage.getItem("theme") !== null) {
+			if (localStorage.getItem("theme") === null) {
 				$('html').addClass('dark');
 				$('.theme-switcher').prop('checked', true);
 			}
