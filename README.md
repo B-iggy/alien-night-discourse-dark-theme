@@ -44,9 +44,6 @@ Basically pretty easy and straight forward:
 5. From the web > github repro URL:
 https://github.com/B-iggy/alien-night-discourse-dark-theme
 6. Adjust as you wish. A Color Scheme is inclusive
-7. Color Scheme:
-![Color Schemes](https://raw.githubusercontent.com/B-iggy/alien-night-discourse-dark-theme/master/preview/alien-night-theme--colors.png)
-
 
 ## Additional feature: Theme Switcher
 Included is a theme switcher at the top Discourse Header where people can choose between a Light (default) Theme and this Dark theme.
