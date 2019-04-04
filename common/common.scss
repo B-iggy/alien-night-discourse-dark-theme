@@ -2166,7 +2166,8 @@ html.dark .select-kit .select-kit-row.is-highlighted,
 html.dark .admin-customize .field-error,
 html.dark .user-menu .notifications li:hover,
 html.dark .menu-panel li a:hover,
-html.dark .select-kit.combo-box .select-kit-row {
+html.dark .select-kit.combo-box .select-kit-row,
+html.dark .menu-panel li a:focus {
 	background-color: #1f353e;
 }
 
@@ -2580,10 +2581,6 @@ html.dark .admin-flags .message {
 
 html.dark .user-menu .notifications li {
 	background-color: #019494;
-}
-
-html.dark .widget-link {
-	color: #019494;
 }
 
 html.dark .theme,
