@@ -2163,7 +2163,8 @@ html.dark .user-menu .notifications li:hover,
 html.dark .menu-panel li a:hover,
 html.dark .select-kit.combo-box .select-kit-row,
 html.dark .menu-panel li a:focus,
-html.dark .modal.history-modal span.edit-reason {
+html.dark .modal.history-modal span.edit-reason,
+html.dark .select-kit.combo-box.mini-tag-chooser .select-kit-collection .collection-header .selected-tag {
 	background-color: #1f353e;
 }
 
@@ -2344,7 +2345,10 @@ html.dark .modal.has-tabs .modal-tabs .modal-tab,
 html.dark .close:hover,
 html.dark .select-kit .select-kit-collection,
 html.dark .select-kit.dropdown-select-box .select-kit-row .texts .name,
-html.dark .d-editor-preview .image-wrapper .button-wrapper .scale-btn.active {
+html.dark .d-editor-preview .image-wrapper .button-wrapper .scale-btn.active,
+html.dark .select-kit.combo-box .select-kit-filter .filter-input,
+html.dark .select-kit.dropdown-select-box.period-chooser .period-chooser-header .d-icon,
+html.dark .styleguide .styleguide-menu ul li a {
 	color: #fbfbfb;
 }
 
