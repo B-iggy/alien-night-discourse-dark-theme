@@ -1,5 +1,5 @@
 <script type="text/discourse-plugin" version="0.8.24">
-api.decorateWidget('header-buttons:before', helper => {
+api.decorateWidget('header-buttons:after', helper => {
     const showExtraInfo = helper.attrs.topic;
     
     if(!showExtraInfo) {
