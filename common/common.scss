@@ -2147,7 +2147,8 @@ html.dark .user-menu .notifications .read,
 html.dark .user-stream .item,
 html.dark .user-stream .user-stream-item,
 html.dark .select-kit.multi-select .select-kit-row,
-html.dark .select-kit .select-kit-collection {
+html.dark .select-kit .select-kit-collection,
+html.dark .select-kit .select-kit-body {
 	background-color: #111923;
 }
 
@@ -2339,7 +2340,11 @@ html.dark .user-menu .notifications li a,
 html.dark .user-menu .notifications .d-icon,
 html.dark .select-kit .category-row .topic-count,
 html.dark select, input[type="file"],
-html.dark .modal.has-tabs .modal-tabs .modal-tab {
+html.dark .modal.has-tabs .modal-tabs .modal-tab,
+html.dark .close:hover,
+html.dark .select-kit .select-kit-collection,
+html.dark .select-kit.dropdown-select-box .select-kit-row .texts .name,
+html.dark .d-editor-preview .image-wrapper .button-wrapper .scale-btn.active {
 	color: #fbfbfb;
 }
 
@@ -2489,7 +2494,8 @@ html.dark.discord-userlist::-webkit-scrollbar-track {
 html.dark.discord-userlist::-webkit-scrollbar-thumb {
 	background-color: #004621; }
 
-html.dark .btn {
+html.dark .btn,
+html.dark .select-kit.dropdown-select-box.toolbar-popup-menu-options .select-kit-row {
 	background-color: #019494;
 	color: #fbfbfb;
 }
@@ -2553,7 +2559,7 @@ html.dark .admin-controls {
 
 html.dark .user-menu .notifications li span,
 html.dark .large-notification a span,
-html.dark .select-kit.dropdown-select-box .select-kit-row .texts .name {
+html.dark .select-kit.dropdown-select-box {
 	color: #d0901d;
 }
 
