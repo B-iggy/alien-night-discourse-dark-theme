@@ -401,18 +401,6 @@ nav .nav-wrapper {
 	z-index: 997;
 	will-change: opacity; }
 
-.header {
-	background-color: #111923;
-	position: fixed;
-	text-align: center;
-	top: 0;
-	transition: all .15s ease-out;
-	-moz-transition: all .15s ease-out;
-	-ms-transition: all .15s ease-out;
-	-o-transition: all .15s ease-out;
-	-webkit-transition: all .15s ease-out;
-	width: 100%;
-	z-index: 770; }
 .header-line {
 	background-color: #019245;
 	border: none;
@@ -2348,7 +2336,8 @@ html.dark .select-kit.dropdown-select-box .select-kit-row .texts .name,
 html.dark .d-editor-preview .image-wrapper .button-wrapper .scale-btn.active,
 html.dark .select-kit.combo-box .select-kit-filter .filter-input,
 html.dark .select-kit.dropdown-select-box.period-chooser .period-chooser-header .d-icon,
-html.dark .styleguide .styleguide-menu ul li a {
+html.dark .styleguide .styleguide-menu ul li a,
+html.dark span.relative-date {
 	color: #fbfbfb;
 }
 
