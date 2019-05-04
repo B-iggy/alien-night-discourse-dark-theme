@@ -2337,7 +2337,8 @@ html.dark .d-editor-preview .image-wrapper .button-wrapper .scale-btn.active,
 html.dark .select-kit.combo-box .select-kit-filter .filter-input,
 html.dark .select-kit.dropdown-select-box.period-chooser .period-chooser-header .d-icon,
 html.dark .styleguide .styleguide-menu ul li a,
-html.dark span.relative-date {
+html.dark span.relative-date,
+html.dark .user-theme-creator .user-theme-list ul li a {
 	color: #fbfbfb;
 }
 
@@ -2355,8 +2356,7 @@ html.dark .dashboard-stats table th,
 html.dark .reply-to a,
 html.dark div.poll .poll-info,
 html.dark a.hashtag,
-html.dark .title-wrapper .topic-statuses .d-icon,
-html.dark .user-theme-creator .user-theme-list ul li a {
+html.dark .title-wrapper .topic-statuses .d-icon {
 	color: #019245;
 }
 
@@ -2531,7 +2531,8 @@ html.dark .discourse-no-touch .topic-body .actions .fade-out {
 }
 
 html.dark .nav-pills>li>a:hover,
-html.dark span.highlighted {
+html.dark span.highlighted,
+html.dark .user-theme-creator .user-theme-list ul li a:hover {
 	background-color: #006f6f;
 }
 
