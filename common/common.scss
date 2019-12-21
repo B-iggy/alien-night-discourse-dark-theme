@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:400,800');
 
+.topic-avatar {
+	border-top: none;
+}
+
+.topic-owner .topic-body {
+	box-shadow: none;
+}
+
+.topic-body {
+	border-top: none;
+	padding: 15px;
+	margin: 10px 0;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	box-shadow: 0 9px 8px rgba(0,0,0,0.30), 0 5px 12px rgba(0,0,0,0.22);
+}
+
+.topic-body:hover {
+	padding: 15px;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3), 0 0px 1px rgba(0,0,0,0.22);
+}
+
 .theme-switcherBox {
 	height: 0;
 	width: 0 !important;
