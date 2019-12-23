@@ -1,5 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:400,800');
 
+.embedded-posts {
+    border: none;
+}
+
+.embedded-posts.bottom {
+    background-color: #01924529;
+}
+
+nav.post-controls .show-replies {
+    background: #e9e9e9;
+}
+
+
+html.dark nav.post-controls .show-replies,
+html.dark nav.post-controls .show-replies:hover {
+    background-color: rgba(1,148,148,0.3);
+}
+html.dark nav.post-controls .show-replies:hover {
+    color: #fff;
+}
+
+nav.post-controls button.create {
+    background-color: #019245;
+    color: #fff;
+}
+
+nav.post-controls button.create .d-icon {
+    color: #fff;
+}
+
+nav.post-controls button.create:hover {
+    color: #fff;
+}
+
+.embedded-posts.bottom .row .topic-avatar,
+.embedded-posts.bottom .row .topic-body {
+    border: none;
+}
+
+.embedded-posts .topic-body {
+    box-shadow: none;
+}
+
 .topic-avatar {
 	border-top: none;
 }
