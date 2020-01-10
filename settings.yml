@@ -1,0 +1,3 @@
+import_google_font:
+  default: true
+  description: When unchecked the theme will no longer include Google's Muli font. This is useful if you want to define your own font for the theme via theme component.
