@@ -101,10 +101,6 @@ html.dark .menu-panel {
 	border: 1px solid #1f353e;
 }
 
-html.dark div.menu-links-header .menu-links-row li a.active::after {
-  border-color: #111923;
-}
-
 html.dark .badge-wrapper:hover {
 	background: none !important;
 }
@@ -282,7 +278,12 @@ html.dark .reviewable-item .post-topic .title-text,
 html.dark .select-kit .select-kit-row .discourse-tag-count,
 html.dark .select-kit .select-kit-row .discourse-tag,
 html.dark #banner-content,
-html.dark .modal.history-modal #revision-numbers {
+html.dark .modal.history-modal #revision-numbers,
+html.dark a.inline-editable-field,
+html.dark span.mention,
+html.dark div.menu-links-header a.user-activity-link span.d-label,
+html.dark .quick-access-profile .user-menu .quick-access-panel li a>div,
+nav.post-controls .actions button.create {
 	color: #fbfbfb;
 }
 
@@ -302,7 +303,10 @@ html.dark div.poll .poll-info,
 html.dark a.hashtag,
 html.dark .title-wrapper .topic-statuses .d-icon,
 html.dark .user-stream .notification p span:first-child,
-html.dark .discourse-local-date.cooked-date .d-icon {
+html.dark .discourse-local-date.cooked-date .d-icon,
+html.dark .menu-panel li a.widget-link,
+html.dark .user-menu .quick-access-panel li a>div,
+.menu-panel li a.widget-link {
 	color: #019245;
 }
 
@@ -480,7 +484,6 @@ html.dark .theme {
 }
 
 html.dark blockquote,
-html.dark aside.quote .title,
 html.dark .moderator .topic-body,
 html.dark .staff-actions .heading-container, .screened-emails .heading-container, .screened-urls .heading-container, .screened-ip-addresses .heading-container, .permalinks .heading-container, .web-hook-events .heading-container {
 	background-color: rgba(255, 255, 255, 0.07);
