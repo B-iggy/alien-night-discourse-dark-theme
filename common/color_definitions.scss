@@ -1,0 +1,19 @@
+// ------------------------------------------------------------------------------ workaround for bugged Discourse is-dark-theme function
+$alien-bg-grading-color-1: dark-light-choose(#e4efff, rgba(23,27,40,1));
+$alien-bg-grading-color-2: dark-light-choose(#fff, rgba(21,27,32,1));
+$alien-bg-grading-color-3: dark-light-choose(#fff, rgba(33,21,30,1));
+$alien-dark-fs-smoothness: dark-light-choose(16px, 18px);
+$alien-dark-lh-smoothness: dark-light-choose(1.7, 1.9);
+
+// ----------------------------------------------------------------------------------------------- Overwrite annoying Discourse defaults
+$alien-hover-colors: dark-light-choose(var(--highlight-low), var(--highlight-high));
+
+:root {
+  --alien-bg-grading-color-1: #{$alien-bg-grading-color-1};
+  --alien-bg-grading-color-2: #{$alien-bg-grading-color-2};
+  --alien-bg-grading-color-3: #{$alien-bg-grading-color-3};
+  --alien-hover-colors: #{$alien-hover-colors};
+  --alien-dark-fs-smoothness: #{$alien-dark-fs-smoothness};
+  --alien-dark-lh-smoothness: #{$alien-dark-lh-smoothness};
+}
+

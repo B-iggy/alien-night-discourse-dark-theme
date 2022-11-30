@@ -1,0 +1,21 @@
+<script type="text/x-handlebars" data-template-name="/connectors/above-site-header/my-sidebar">
+
+    <input type="checkbox" id="c-drawer--right">
+    <label for="c-drawer--right" id="c-drawer-overlay--right"></label>
+    <label class="sidebar-hamburger" for="c-drawer--right">
+        <div class="sidebar-toggler--right" data-activates="sidebar-navPanel">
+            <svg class="far fa-bars fa d-icon d-icon-bars svg-icon svg-node">
+                <use xlink:href="#bars"></use>
+            </svg>
+        </div>
+    </label>
+
+    <nav role="navigation" class="c-drawer--right">
+        <div class="dl-switcher">
+          {{#if (theme-setting 'sidebar_dark_light_switch')}}
+            {{mount-widget widget="dark-light-selector" }}{{ mount-widget widget="auto-selector"}}
+          {{/if}}
+        </div>
+    </nav>
+
+</script>
