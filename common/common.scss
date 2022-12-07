@@ -66,18 +66,6 @@ a:visited {
 
 
 // ------------------------------------------------------------------------------------------ Custom styles
-  @if $sidebar-dark-light-switch == "true" {
-    .c-drawer--right,
-    .sidebar-hamburger {
-      display: block;
-    }
-  } @else {
-    .c-drawer--right,
-    .sidebar-hamburger {
-      display: none;
-    }
-  }
-
 
 .category-list .subcategories {
   display: inline-grid;

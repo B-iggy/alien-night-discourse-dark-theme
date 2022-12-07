@@ -4,6 +4,3 @@ import_google_font:
 default_light:
   default: false
   description: When checked the theme will show the light theme as default for new visitors.
-sidebar_dark_light_switch:
-  default: false
-  description: IF this component is installed (https://meta.discourse.org/t/dark-light-mode-toggle/215585) and you set this to true, you can toggle between your Dark and Light Color Palette.
